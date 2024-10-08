@@ -1,0 +1,36 @@
+------------------------------------------
+create a student
+{
+  "action": "create",
+  "name": "John Doe",
+  "description": "A new student"
+}
+------------------------------------------
+Read All Student
+{
+  "action": "read_all"
+}
+------------------------------------------
+Read student by ID
+{
+  "action": "read_by_id",
+  "student_id": 1
+}
+------------------------------------------
+Update a Student
+{
+  "action": "update",
+  "student_id": 1,
+  "name": "Updated Name",
+  "description": "Updated Description"
+}
+------------------------------------------
+Delete Student
+{
+  "action": "delete",
+  "student_id": 1
+}
+
+
+
+
