@@ -6,7 +6,7 @@ from colorama import init, Fore, Style
 # Initialize colorama
 init(autoreset=True)
 
-from Controller import Headers, Soap_url, Attrib, REST_API, METHOD
+from Config import Headers, Soap_url, Attrib, REST_API, METHOD
 
 app = Flask(__name__)
 
