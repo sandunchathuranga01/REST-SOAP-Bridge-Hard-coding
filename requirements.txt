@@ -1,0 +1,7 @@
+Flask==2.1.2
+Werkzeug==2.0.3
+requests==2.31.0
+spyne==2.13.16
+mysql-connector-python==8.0.33
+SQLAlchemy==1.4.46
+lxml==4.9.1
